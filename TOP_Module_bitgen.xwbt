@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/student1/a35choud/Desktop/COE758/COE758_Project1_Asif_Chris/TOP_Module.ncd
+OUTFILE=/home/student1/a35choud/Desktop/COE758/COE758_Project1_Asif_Chris/TOP_Module.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=/home/student1/a35choud/Desktop/COE758/COE758_Project1_Asif_Chris
+LICENSE=ISE
+USER_INFO=175353682_174116511_210722484_808

@@ -1,0 +1,50 @@
+xst -intstyle ise -ifn "/home/student1/a35choud/Desktop/COE758/COE758_Project1_AC_CZ_2/TOP_Module.xst" -ofn "/home/student1/a35choud/Desktop/COE758/COE758_Project1_AC_CZ_2/TOP_Module.syr" 
+xst -intstyle ise -ifn "/home/student1/a35choud/Desktop/COE758/COE758_Project1_AC_CZ_2/TOP_Module.xst" -ofn "/home/student1/a35choud/Desktop/COE758/COE758_Project1_AC_CZ_2/TOP_Module.syr" 
+xst -intstyle ise -ifn "/home/student1/a35choud/Desktop/COE758/COE758_Project1_AC_CZ_2/TOP_Module.xst" -ofn "/home/student1/a35choud/Desktop/COE758/COE758_Project1_AC_CZ_2/TOP_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc clk.ucf -p xc3s500e-fg320-5 TOP_Module.ngc TOP_Module.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc clk.ucf -p xc3s500e-fg320-5 TOP_Module.ngc TOP_Module.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TOP_Module_map.ncd TOP_Module.ngd TOP_Module.pcf 
+par -w -intstyle ise -ol high -t 1 TOP_Module_map.ncd TOP_Module.ncd TOP_Module.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TOP_Module.twx TOP_Module.ncd -o TOP_Module.twr TOP_Module.pcf -ucf clk.ucf 
+bitgen -intstyle ise -f TOP_Module.ut TOP_Module.ncd 
+xst -intstyle ise -ifn "/home/student1/a35choud/Desktop/COE758/COE758_Project1_Asif_Chris/TOP_Module.xst" -ofn "/home/student1/a35choud/Desktop/COE758/COE758_Project1_Asif_Chris/TOP_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc clk.ucf -p xc3s500e-fg320-5 TOP_Module.ngc TOP_Module.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TOP_Module_map.ncd TOP_Module.ngd TOP_Module.pcf 
+par -w -intstyle ise -ol high -t 1 TOP_Module_map.ncd TOP_Module.ncd TOP_Module.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TOP_Module.twx TOP_Module.ncd -o TOP_Module.twr TOP_Module.pcf -ucf clk.ucf 
+bitgen -intstyle ise -f TOP_Module.ut TOP_Module.ncd 
+xst -intstyle ise -ifn "/home/student1/a35choud/Desktop/COE758/COE758_Project1_Asif_Chris/TOP_Module.xst" -ofn "/home/student1/a35choud/Desktop/COE758/COE758_Project1_Asif_Chris/TOP_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc clk.ucf -p xc3s500e-fg320-5 TOP_Module.ngc TOP_Module.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TOP_Module_map.ncd TOP_Module.ngd TOP_Module.pcf 
+par -w -intstyle ise -ol high -t 1 TOP_Module_map.ncd TOP_Module.ncd TOP_Module.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TOP_Module.twx TOP_Module.ncd -o TOP_Module.twr TOP_Module.pcf -ucf clk.ucf 
+xst -intstyle ise -ifn "/home/student1/a35choud/Desktop/COE758/COE758_Project1_Asif_Chris/TOP_Module.xst" -ofn "/home/student1/a35choud/Desktop/COE758/COE758_Project1_Asif_Chris/TOP_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc clk.ucf -p xc3s500e-fg320-5 TOP_Module.ngc TOP_Module.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TOP_Module_map.ncd TOP_Module.ngd TOP_Module.pcf 
+par -w -intstyle ise -ol high -t 1 TOP_Module_map.ncd TOP_Module.ncd TOP_Module.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TOP_Module.twx TOP_Module.ncd -o TOP_Module.twr TOP_Module.pcf -ucf clk.ucf 
+bitgen -intstyle ise -f TOP_Module.ut TOP_Module.ncd 
+xst -intstyle ise -ifn "/home/student1/a35choud/Desktop/COE758/COE758_Project1_Asif_Chris/TOP_Module.xst" -ofn "/home/student1/a35choud/Desktop/COE758/COE758_Project1_Asif_Chris/TOP_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc clk.ucf -p xc3s500e-fg320-5 TOP_Module.ngc TOP_Module.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TOP_Module_map.ncd TOP_Module.ngd TOP_Module.pcf 
+par -w -intstyle ise -ol high -t 1 TOP_Module_map.ncd TOP_Module.ncd TOP_Module.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TOP_Module.twx TOP_Module.ncd -o TOP_Module.twr TOP_Module.pcf -ucf clk.ucf 
+bitgen -intstyle ise -f TOP_Module.ut TOP_Module.ncd 
+xst -intstyle ise -ifn "/home/student1/a35choud/Desktop/COE758/COE758_Project1_Asif_Chris/TOP_Module.xst" -ofn "/home/student1/a35choud/Desktop/COE758/COE758_Project1_Asif_Chris/TOP_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc clk.ucf -p xc3s500e-fg320-5 TOP_Module.ngc TOP_Module.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TOP_Module_map.ncd TOP_Module.ngd TOP_Module.pcf 
+par -w -intstyle ise -ol high -t 1 TOP_Module_map.ncd TOP_Module.ncd TOP_Module.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TOP_Module.twx TOP_Module.ncd -o TOP_Module.twr TOP_Module.pcf -ucf clk.ucf 
+bitgen -intstyle ise -f TOP_Module.ut TOP_Module.ncd 
+xst -intstyle ise -ifn "/home/student1/a35choud/Desktop/COE758/COE758_Project1_Asif_Chris/TOP_Module.xst" -ofn "/home/student1/a35choud/Desktop/COE758/COE758_Project1_Asif_Chris/TOP_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc clk.ucf -p xc3s500e-fg320-5 TOP_Module.ngc TOP_Module.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TOP_Module_map.ncd TOP_Module.ngd TOP_Module.pcf 
+par -w -intstyle ise -ol high -t 1 TOP_Module_map.ncd TOP_Module.ncd TOP_Module.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TOP_Module.twx TOP_Module.ncd -o TOP_Module.twr TOP_Module.pcf -ucf clk.ucf 
+bitgen -intstyle ise -f TOP_Module.ut TOP_Module.ncd 
+xst -intstyle ise -ifn "/home/student1/a35choud/Desktop/COE758/COE758_Project1_Asif_Chris/TOP_Module.xst" -ofn "/home/student1/a35choud/Desktop/COE758/COE758_Project1_Asif_Chris/TOP_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc clk.ucf -p xc3s500e-fg320-5 TOP_Module.ngc TOP_Module.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TOP_Module_map.ncd TOP_Module.ngd TOP_Module.pcf 
+par -w -intstyle ise -ol high -t 1 TOP_Module_map.ncd TOP_Module.ncd TOP_Module.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TOP_Module.twx TOP_Module.ncd -o TOP_Module.twr TOP_Module.pcf -ucf clk.ucf 
+bitgen -intstyle ise -f TOP_Module.ut TOP_Module.ncd 
